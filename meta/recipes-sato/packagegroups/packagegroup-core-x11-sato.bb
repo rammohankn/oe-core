@@ -6,6 +6,8 @@ SUMMARY = "Sato desktop"
 LICENSE = "MIT"
 PR = "r33"
 
+DEPENDS += "orc"
+
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 inherit packagegroup
