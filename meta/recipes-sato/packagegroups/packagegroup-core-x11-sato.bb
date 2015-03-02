@@ -6,7 +6,7 @@ SUMMARY = "Sato desktop"
 LICENSE = "MIT"
 PR = "r33"
 
-DEPENDS += "orc"
+DEPENDS += "orc taglib"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
